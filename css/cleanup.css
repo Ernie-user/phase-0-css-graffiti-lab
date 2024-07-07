@@ -1,1 +1,19 @@
-/* write your override styles here */
+/* Hides the graffiti element 1 */
+#wall .tag-1 {
+    display: none;
+}
+
+/* Hides the graffiti element 2 */
+#wall .parent {
+    display: none;
+}
+
+/* Hides the graffiti element 3 */
+#wall .tag-1+#tag-2 {
+    display: none;
+}
+
+/* Hides the graffiti element 4 */
+#wall .tag-1+#tag-2+#tag-3 {
+    display: none;
+}
